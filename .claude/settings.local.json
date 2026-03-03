@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "WebSearch",
+      "Bash(npx create-next-app:*)",
+      "Bash(xcopy:*)",
+      "Bash(copy temp_init.gitignore .gitignore /Y)",
+      "Bash(robocopy:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npx next build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx prisma generate:*)",
+      "Bash(npx prisma migrate:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx next:*)",
+      "Bash(node prisma/seed.mjs:*)",
+      "Bash(find:*)",
+      "Bash(npm run db:migrate:*)",
+      "Bash(ls:*)",
+      "Bash(sqlite3:*)",
+      "Bash(tasklist:*)",
+      "Bash(node -e:*)",
+      "Bash(node apply-migration.js:*)",
+      "Bash(node:*)",
+      "Bash(npx prisma db push:*)",
+      "Bash(lsof:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd //c \"taskkill /PID 17420 /F\")",
+      "Bash(cmd //c \"openfiles /query /fo csv 2>&1\")",
+      "Bash(cmd //c:*)",
+      "Bash(powershell -command:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run:*)",
+      "Bash(npx eslint:*)"
+    ]
+  }
+}
